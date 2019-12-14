@@ -1,0 +1,25 @@
+Vigenere Cipher:
+	
+	message ->
+	 ____________
+	 | abcd...wxyz
+	 |aabcd...wxyz
+	 |bbcde...xyza
+      k  |c.   ...   .
+      e  |d.   ...   .
+      y  |.     .    .
+         |.     .    .
+	 |.     .    .
+	 |w.   ...   .
+	 |x.   ...   .
+	 |y.   ...   .
+	 |zzabc...vwxy
+	
+	message: GIVEMEMONEY
+	key    : LOCK
+
+	G I V E M E M O N E Y  ==> our message
+			       ==> encrypted answer will be intersection of G and L from above table 
+	L O C K L O C K L O C  ==> keeps on repeating 
+
+	for decryption, follow reverse order. For example: if G intersection L is H, the look up for H in the row where L(in key coloumn) is present.

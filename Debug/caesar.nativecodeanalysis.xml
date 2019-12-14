@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\chirayu\source\repos\cryptography\cryptography</FILEPATH>
+      <FILENAME>caesar.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: '_getch'.</DESCRIPTION>
+    <FUNCTION>print_caesar_manual</FUNCTION>
+    <DECORATED>?print_caesar_manual@@YAXXZ</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\chirayu\source\repos\cryptography\cryptography</FILEPATH>
+      <FILENAME>caesar.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>substitution_tech_encrypt</FUNCTION>
+    <DECORATED>?substitution_tech_encrypt@@YAXXZ</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\chirayu\source\repos\cryptography\cryptography</FILEPATH>
+      <FILENAME>caesar.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>transportation_tech_encrypt</FUNCTION>
+    <DECORATED>?transportation_tech_encrypt@@YAXXZ</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\chirayu\source\repos\cryptography\cryptography</FILEPATH>
+      <FILENAME>caesar.cpp</FILENAME>
+      <LINE>146</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: '_getch'.</DESCRIPTION>
+    <FUNCTION>substitution_tech_decrypt</FUNCTION>
+    <DECORATED>?substitution_tech_decrypt@@YAXXZ</DECORATED>
+    <FUNCLINE>113</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

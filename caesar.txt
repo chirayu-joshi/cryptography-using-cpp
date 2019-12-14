@@ -1,0 +1,7 @@
+1) Caesar Cipher:
+	1) Substitution technique:
+		NAME ==> OBNF
+		Here we increased each character by one. We can increase by 2, 3, 4, ... which will be our key.
+	2) Transposition technique:
+		NAME ==> MEAN
+		Permutaion in the message itself.
